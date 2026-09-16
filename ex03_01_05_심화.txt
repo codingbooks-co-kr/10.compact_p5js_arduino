@@ -1,0 +1,15 @@
+// 덧셈 연산자인 ‘+’를 사용하여 문자열 연결
+
+let n1 = 12;				// 숫자형
+let n2 = 12.345;			// 숫자형
+let s = "p5.js";			// 문자열형
+
+function setup() {
+  console.log("n1 = " + n1);
+  console.log("n2 = " + n2);
+  console.log("s = " + s);
+  console.log(n1 + n2);
+  console.log(n1 + n2 + " = Sum"); 	// 왼쪽부터 연산 및 연결
+  console.log("Sum = " + n1 + n2); // 왼쪽부터 문자열 연결
+  console.log("Hello " + "p5.js");	// 문자열 연결
+}
